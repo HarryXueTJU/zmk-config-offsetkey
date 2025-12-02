@@ -64,7 +64,7 @@
             >;
 
             label = "layer_1";
-            sensor-bindings = <&inc_dec_kp C_SCROLL_UP C_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer_2 {
@@ -78,7 +78,7 @@
             >;
 
             label = "layer_2";
-            sensor-bindings = <&inc_dec_kp C_SCROLL_LEFT C_SCROLL_RIGHT>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         layer_3 {
@@ -90,6 +90,8 @@
 &trans  &trans  &trans  &trans          &trans                      &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans              &trans  &trans  &trans  &trans
             >;
+
+            label = "layer_3";
         };
     };
 };
